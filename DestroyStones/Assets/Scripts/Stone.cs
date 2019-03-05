@@ -21,4 +21,10 @@ public class Stone : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    // Si se pulsa la piedra con el raton, se destruira
+    void OnMouseDown()
+    {
+        Destroy(gameObject);
+    }
 }
