@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\MainLoop.cs" />
+     <Compile Include="Assets\Scripts\Stone.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/eduna/Desktop/RepositorioBootcamp/UnityDestroyStones/DestroyStones/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
