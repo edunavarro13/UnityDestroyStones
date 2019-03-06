@@ -6,6 +6,8 @@ public class Stone : MonoBehaviour
 {
     // Altura a la que la piedra se destruira
     private const float yDie = -30.0f;
+    // La explosion tras destruir una piedra
+    public GameObject explosion;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +27,8 @@ public class Stone : MonoBehaviour
     // Si se pulsa la piedra con el raton, se destruira
     void OnMouseDown()
     {
+        // Se instanciara la explosion y se destruira en 3.3 segundos
+        Destroy(Instantiate(explosion, transform.position, Quaternion.identity), 3.3f);
         Destroy(gameObject);
     }
 }
