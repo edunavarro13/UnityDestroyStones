@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\InterfaceAwake.cs" />
+     <Compile Include="Assets\Scripts\InterfaceFinal.cs" />
      <Compile Include="Assets\Scripts\InterfaceStone.cs" />
      <Compile Include="Assets\Scripts\MainLoop.cs" />
      <Compile Include="Assets\Scripts\Stone.cs" />
