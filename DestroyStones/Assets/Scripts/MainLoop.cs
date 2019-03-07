@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class MainLoop: MonoBehaviour {
 	
@@ -30,7 +31,10 @@ public class MainLoop: MonoBehaviour {
 		
 		while(enableStones) {
 
-
+            if(GameManager.currentNumberStonesThrown == 20)
+            {
+                SceneManager.LoadScene("Final");
+            }
 			GameObject stone = (GameObject) Instantiate(stones[Random.Range(0, stones.Length)]);
 			stone.transform.position = new Vector3(Random.Range(minX, maxX), -30.0f, Random.Range(minZ, maxZ));
 			stone.transform.rotation = Random.rotation;
