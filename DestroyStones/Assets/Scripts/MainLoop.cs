@@ -42,8 +42,10 @@ public class MainLoop: MonoBehaviour {
 			rigidbody.AddTorque(Vector3.forward * torque, ForceMode.Impulse);
 			
 			rigidbody.AddForce(Vector3.up * Random.Range(minAntiGravity, maxAntiGravity), ForceMode.Impulse);
-			rigidbody.AddForce(Vector3.right * Random.Range(minLateralForce, maxLateralForce), ForceMode.Impulse);	
-;
+			rigidbody.AddForce(Vector3.right * Random.Range(minLateralForce, maxLateralForce), ForceMode.Impulse);
+
+            // DestroyStones-VII-
+            GameManager.currentNumberStonesThrown++;
 
 			yield return new WaitForSeconds(Random.Range(minTimeBetweenStones, maxTimeBetweenStones));
 			

@@ -30,5 +30,8 @@ public class Stone : MonoBehaviour
         // Se instanciara la explosion y se destruira en 3.3 segundos
         Destroy(Instantiate(explosion, transform.position, Quaternion.identity), 3.3f);
         Destroy(gameObject);
+
+        // DestroyStones-VII-
+        GameManager.currentNumberDestroyedStones++;
     }
 }
