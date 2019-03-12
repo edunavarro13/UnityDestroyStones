@@ -59,6 +59,8 @@
      <Compile Include="Assets\Scripts\InterfaceStone.cs" />
      <Compile Include="Assets\Scripts\MainLoop.cs" />
      <Compile Include="Assets\Scripts\Stone.cs" />
+     <Compile Include="Assets\SpaceSkies Free\Demo\Scripts\LookCamera.cs" />
+     <Compile Include="Assets\SpaceSkies Free\Demo\Scripts\SkyboxChanger.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/eduna/Desktop/RepositorioBootcamp/UnityDestroyStones/DestroyStones/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
