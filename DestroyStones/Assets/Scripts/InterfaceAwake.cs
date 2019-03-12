@@ -21,6 +21,19 @@ public class InterfaceAwake : MonoBehaviour
 
     public void Click()
     {
+        Time.timeScale = 3.0f;
+        SceneManager.LoadScene("StoneGame");
+    }
+
+    public void EasyClick()
+    {
+        Time.timeScale = 2.0f;
+        SceneManager.LoadScene("StoneGame");
+    }
+
+    public void HardClick()
+    {
+        Time.timeScale = 4.0f;
         SceneManager.LoadScene("StoneGame");
     }
 }
