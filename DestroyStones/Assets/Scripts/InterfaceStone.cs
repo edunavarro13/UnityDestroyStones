@@ -17,7 +17,7 @@ public class InterfaceStone : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        textThrown.text = "Number of Stones: " + GameManager.currentNumberStonesThrown;
+        textThrown.text = "Lives: " + GameManager.currentNumberLives;
         textDestroyed.text = "Destroyed: " + GameManager.currentNumberDestroyedStones;
     }
 }

@@ -31,7 +31,7 @@ public class MainLoop: MonoBehaviour {
 		
 		while(enableStones) {
 
-            if(GameManager.currentNumberStonesThrown == 20)
+            if(GameManager.currentNumberLives <= 0)
             {
                 SceneManager.LoadScene("Final");
             }

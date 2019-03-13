@@ -31,7 +31,14 @@ public class Stone : MonoBehaviour
         Destroy(Instantiate(explosion, transform.position, Quaternion.identity), 3.3f);
         Destroy(gameObject);
 
-        // DestroyStones-VII-
-        GameManager.currentNumberDestroyedStones++;
+        if (gameObject.tag == "Error")
+        {
+            GameManager.currentNumberLives -= 1;
+        }
+        else
+        {
+            // DestroyStones-VII-
+            GameManager.currentNumberDestroyedStones++;
+        }
     }
 }
