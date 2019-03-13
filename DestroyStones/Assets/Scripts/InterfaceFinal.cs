@@ -26,4 +26,11 @@ public class InterfaceFinal : MonoBehaviour
     {
         SceneManager.LoadScene("Awake");
     }
+
+    public void RetryClick()
+    {
+        GameManager.currentNumberStonesThrown = 0;
+        GameManager.currentNumberDestroyedStones = 0;
+        SceneManager.LoadScene("StoneGame");
+    }
 }
