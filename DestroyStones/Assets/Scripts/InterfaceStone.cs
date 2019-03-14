@@ -18,6 +18,6 @@ public class InterfaceStone : MonoBehaviour
     void Update()
     {
         textThrown.text = "Lives: " + GameManager.currentNumberLives;
-        textDestroyed.text = "Destroyed: " + GameManager.currentNumberDestroyedStones;
+        textDestroyed.text = "Points: " + GameManager.currentPoints;
     }
 }

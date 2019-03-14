@@ -12,6 +12,7 @@ public class InterfaceAwake : MonoBehaviour
         GameManager.currentNumberStonesThrown = 0;
         GameManager.currentNumberDestroyedStones = 0;
         GameManager.currentNumberLives = 3;
+        GameManager.currentPoints = 0;
     }
 
     // Update is called once per frame
@@ -23,18 +24,18 @@ public class InterfaceAwake : MonoBehaviour
     public void Click()
     {
         Time.timeScale = 3.0f;
-        SceneManager.LoadScene("StoneGame");
+        SceneManager.LoadScene("Tutorial");
     }
 
     public void EasyClick()
     {
         Time.timeScale = 2.0f;
-        SceneManager.LoadScene("StoneGame");
+        SceneManager.LoadScene("Tutorial");
     }
 
     public void HardClick()
     {
         Time.timeScale = 4.0f;
-        SceneManager.LoadScene("StoneGame");
+        SceneManager.LoadScene("Tutorial");
     }
 }

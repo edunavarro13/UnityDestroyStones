@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\InterfaceAwake.cs" />
      <Compile Include="Assets\Scripts\InterfaceFinal.cs" />
      <Compile Include="Assets\Scripts\InterfaceStone.cs" />
+     <Compile Include="Assets\Scripts\InterfaceTutorial.cs" />
      <Compile Include="Assets\Scripts\MainLoop.cs" />
      <Compile Include="Assets\Scripts\Stone.cs" />
      <Compile Include="Assets\SpaceSkies Free\Demo\Scripts\LookCamera.cs" />

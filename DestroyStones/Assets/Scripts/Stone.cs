@@ -38,6 +38,11 @@ public class Stone : MonoBehaviour
         {
             // DestroyStones-VII-
             GameManager.currentNumberDestroyedStones++;
+            GameManager.currentPoints++;
+            if (gameObject.tag == "Extra")
+            {
+                GameManager.currentPoints++;
+            }
         }
     }
 }

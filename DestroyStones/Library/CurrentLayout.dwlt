@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -368,19 +368,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\eduna\Desktop\RepositorioBootcamp\UnityDestroyStones\DestroyStones
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 51}
-    m_SelectedIDs: d82c0000
-    m_LastClickedID: 11480
+    m_SelectedIDs: 3c340000
+    m_LastClickedID: 13372
     m_ExpandedIDs: 00000000ba270000e02800007a2a0000842a00009c30000076310000c4320000f232000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -409,7 +409,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ba2700007a2a0000842a00009c30000076310000c4320000d0320000f2320000
+    m_ExpandedIDs: 00000000ba270000e02800007a2a0000842a00009c30000076310000c4320000f2320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -453,7 +453,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 3}
+      m_ClientGUIView: {fileID: 8}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -495,7 +495,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: 181
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
@@ -530,7 +530,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d8d7ffff96d8ffff6ed9ffffd4fbffff
+      m_ExpandedIDs: e0cdfffffecdffffe4cffffff4cfffff02d0ffff10d0ffff4cd3ffff7ad7ffff98d7ffff80d9ffff90d9ffff9ed9ffffaad9ffff92e9ffff3cebffffe6ebfffff6eeffff58f0ffff9cf0ffffbaf0ffffd8f0ffff12f1ffff72f7ffff04f9ffff22f9ffff0afbffff1afbffff26fbffffd4fbffff7638000056390000fe3b0000e83c0000483d00005e480000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
