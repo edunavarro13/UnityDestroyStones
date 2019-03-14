@@ -11,6 +11,7 @@ public class InterfaceAwake : MonoBehaviour
         // Nos aseguramos que es 0, ya que de Final vendremos aqui y no seran 0
         GameManager.currentNumberStonesThrown = 0;
         GameManager.currentNumberDestroyedStones = 0;
+        GameManager.currentNumberLives = 3;
     }
 
     // Update is called once per frame

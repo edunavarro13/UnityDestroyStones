@@ -31,6 +31,7 @@ public class InterfaceFinal : MonoBehaviour
     {
         GameManager.currentNumberStonesThrown = 0;
         GameManager.currentNumberDestroyedStones = 0;
+        GameManager.currentNumberLives = 3;
         SceneManager.LoadScene("StoneGame");
     }
 }
