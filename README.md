@@ -21,6 +21,8 @@ Una vez ejecutado el juego, saldrá la pantalla inicial en la que el jugador pod
 * Si destruyes una piedra roja, el jugador pederá una vida.
 * Si destruyes una piedra verde, el jugador ganará 2 puntos.
 * Si destruyes una piedra gris, el jugador ganará 1 punto.
+
+
 El funcionamiento es simple: el jugador debe conseguir el mayor número de puntos posible. La partida terminará si el jugador destruye por error 3 piedras rojas (equivalentes a las 3 vidas que posee).
 Una vez terminado el juego, saldrá un resumen del juego realizado y el jugador tendrá 2 opciones:
 * Volver a jugar con la misma dificultad.
